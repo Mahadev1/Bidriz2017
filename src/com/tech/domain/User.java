@@ -1,4 +1,4 @@
-package com.raistudies.domain;
+package com.tech.domain;
 
 import java.io.Serializable;
 

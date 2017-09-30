@@ -1,11 +1,11 @@
-package com.raistudies.validator;
+package com.tech.validator;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-import com.raistudies.domain.User;
+import com.tech.domain.User;
 
 @Component
 public class RegistrationValidator implements Validator {

@@ -1,8 +1,8 @@
-package com.raistudies.persistence;
+package com.tech.persistence;
 
 import java.util.List;
 
-import com.raistudies.domain.User;
+import com.tech.domain.User;
 
 public interface UserService {
 	

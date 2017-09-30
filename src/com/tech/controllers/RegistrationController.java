@@ -1,4 +1,4 @@
-package com.raistudies.controllers;
+package com.tech.controllers;
 
 import java.util.List;
 import java.util.UUID;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.raistudies.domain.User;
-import com.raistudies.persistence.UserService;
-import com.raistudies.validator.RegistrationValidator;
+import com.tech.domain.User;
+import com.tech.persistence.UserService;
+import com.tech.validator.RegistrationValidator;
 
 @Controller
 @RequestMapping(value="/registration")
